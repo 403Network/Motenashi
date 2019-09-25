@@ -1,5 +1,10 @@
 <template>
-    <router-view></router-view>
+    <div>
+        <div>
+            hi
+        </div>
+        <router-view></router-view>
+    </div>
 </template>
 
 <script lang="ts">
@@ -17,7 +22,6 @@ export default Vue.extend({
     }
   },
   methods: {
-    // need annotation due to `this` in return type
     greet (): string {
       return this.msg + ' world'
     }
