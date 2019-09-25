@@ -5,8 +5,8 @@ import router from './router'
 import Master from './components/Master.vue'
 
 new Vue({
-    router,
-    store,
-    el: '#app',
-    render: h => h(Master)
+  router,
+  store,
+  el: '#app',
+  render: h => h(Master)
 })
