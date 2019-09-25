@@ -1,9 +1,9 @@
 
 export interface RootState {
-    todos: Todo[]
+  todos: Todo[]
 }
 
 export interface Todo {
-    done: boolean
-    name: string
+  done: boolean
+  name: string
 }
