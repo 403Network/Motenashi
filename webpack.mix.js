@@ -13,3 +13,6 @@ const mix = require('laravel-mix');
 
 mix.ts('resources/js/app.ts', 'public/js')
    .sass('resources/scss/app.scss', 'public/css')
+   .options({
+      globalVueStyles: "resources/scss/_includes.scss"
+   });
